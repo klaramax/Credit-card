@@ -1,0 +1,12 @@
+.cc-input {
+    padding: 4px 8px;
+    width: 4rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cc-input::placeholder {
+  color: #ced4da;
+}
