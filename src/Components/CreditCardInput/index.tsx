@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useRef} from 'react';
 import './style.css';
 
 
-const CreditCardInputField: React.FC = () => {
+const CreditCardInput: React.FC = () => {
     // Vytvoření pole pro uchování referencí na všechny čtyři inputy
     const inputRef1 = useRef<HTMLInputElement | null>(null);
     const inputRef2 = useRef<HTMLInputElement | null>(null);
@@ -58,4 +58,4 @@ const CreditCardInputField: React.FC = () => {
     );
 };
 
-export default CreditCardInputField;
+export default CreditCardInput;
